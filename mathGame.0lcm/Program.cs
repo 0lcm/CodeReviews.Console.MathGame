@@ -22,13 +22,6 @@ const int maxRecordedGames = 5;
 string[] gamemodes = { "+", "-", "/", "*" };
 Queue<string[]> recordedGames = new Queue<string[]>();
 
-//recordedGames values
-string recordedDate = "";
-string recordedDuration = "";
-string recordedDifficulty = "";
-string recordedGamemode = "";
-string recordedScore = "";
-
 //main game menu
 bool shouldExit = false;
 while (!shouldExit)
